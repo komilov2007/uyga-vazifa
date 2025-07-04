@@ -21,6 +21,7 @@ body {
     --toq-sariq-color: #DF6464;
     --qora-color: #101010;
     --kok-color: blue;
+    --kulrang-color:#838383;
 }
 header {
    display: flex;
@@ -58,7 +59,7 @@ select {
  .text {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    opacity: 50%;
+    color: var(--kulrang-color);
     padding-bottom: 20px;
     padding-top: 10px;
 } 
@@ -96,9 +97,7 @@ select {
 }
 .sect-text del {
     padding-left: 960px;
-    opacity: 50%;
-   
-    
+    color: var(--kulrang-color);   
 }
 .sect-text p {
     color: var(--toq-sariq-color);
