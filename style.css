@@ -58,7 +58,7 @@ select {
  .text {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-   color: var(--seriy-color);
+    opacity: 50%;
     padding-bottom: 20px;
     padding-top: 10px;
 } 
