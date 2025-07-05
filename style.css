@@ -22,6 +22,7 @@ body {
     --qora-color: #101010;
     --kok-color: blue;
     --kulrang-color:#838383;
+    --shadow-color:rgb(193, 192, 192);
 }
 .sect-text .del {
     text-decoration: line-through;
@@ -87,7 +88,7 @@ select {
     height: 720px;
     border-radius: 20px;
     box-shadow: var(--qora-color);
-    box-shadow: 0px 0px 20px var(--qora-color);
+    box-shadow: 0px 0px 20px var(--shadow-color);
 }    
 .sect-clr img {
    padding-top: 0px;
@@ -121,7 +122,7 @@ select {
 height: 550px;
 border-radius: 20px;
 margin-top: 23px;
-box-shadow: 0px 0px 20px var(--qora-color);
+box-shadow: 0px 0px 20px var(--shadow-color);
 }
 .btn {
   
@@ -141,7 +142,7 @@ box-shadow: 0px 0px 20px var(--qora-color);
     padding: 20px;
 }
 .card:hover {
-    box-shadow: 1px 1px 10px var(--qora-color), -1px -1px 10px var(--qora-color);
+    box-shadow: 1px 1px 10px var(--shadow-color), -1px -1px 10px var(--shadow-color);
 }
 .card-text {
     display: flex;
@@ -170,7 +171,7 @@ box-shadow: 0px 0px 20px var(--qora-color);
     padding: 13px 100px;
     margin-top: 23px;
     margin-left: 33px;
-    box-shadow: 0px 0px 20px var(--qora-color);
+    box-shadow: 0px 0px 20px var(--shadow-color);
 }
 .btn button{
     height: 51px;
@@ -190,7 +191,7 @@ box-shadow: 0px 0px 20px var(--qora-color);
         align-items: center;
         margin-top: 20px;
         margin-left: 33px;
-        box-shadow: 0px 0px 20px var(--qora-color);
+        box-shadow: 0px 0px 20px var(--shadow-color);
         display: flex;
         
 }
@@ -215,7 +216,7 @@ box-shadow: 0px 0px 20px var(--qora-color);
     height: 170px;
     border-radius: 15px 15px 0 0;
     margin-top: 20px;
-    box-shadow: 0 0 20px var(--qora-color);
+    box-shadow: 0 0 20px var(--shadow-color);
 }
 .footer b {
     font-size: 25px;
