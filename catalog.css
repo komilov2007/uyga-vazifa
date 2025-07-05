@@ -1,253 +1,247 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    max-width:1110px;
-    margin: 0 auto;
+
+a {
+  text-decoration: none;
 }
-body{
-    min-height: 100vh;
-   font-family: "Montserrat", sans-serif;
-   background-color: var(--background-color);
-   
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
 }
-:root{
-    --footer-text:#000000;
-     --text-15px:#101010;
-      --text-inbox: #1C1C27;
-      --yellow-text: #FFA542;
-      --grey-text: #838383;
-      --shadow-color: #0000001A;
-      --background-color: #EAEAEA;
-      --karobka-color:#FFFFFF;
+body {
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-color);
+}
+:root {
+  --footer-text: #000000;
+  --text-15px: #101010;
+  --text-inbox: #1c1c27;
+  --yellow-text: #ffa542;
+  --grey-text: #838383;
+  --shadow-color: #0000001a;
+  --background-color: #eaeaea;
+  --karobka-color: #ffffff;
 }
 .with-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
-.texts{
-    font-size: 20px;
-    color: var(--grey-text);
+.texts {
+  font-size: 20px;
+  color: var(--grey-text);
 }
-.footer-text{
-    font-size: 17px;
-    text-decoration: none;
-    color: var(--footer-text);
+.footer-text {
+  font-size: 17px;
+  text-decoration: none;
+  color: var(--footer-text);
 }
-.text-15px{
-    font-size: 15px;
-    color: var(--text-15px);
+.text-15px {
+  font-size: 15px;
+  color: var(--text-15px);
 }
-.karobka{
-    width: 350px;
-    height: 407.6470642089844px;
-    border-radius: 30px;
-    background-color: var(--karobka-color);
-    box-shadow: 0 0 20px  var(--shadow-color);
-   cursor: pointer;
-transition: all 0.2s ease-in;
-   scale: 3px;
-
+.karobka {
+  width: 350px;
+  height: 407.6470642089844px;
+  border-radius: 30px;
+  background-color: var(--karobka-color);
+  box-shadow: 0 0 20px var(--shadow-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  scale: 3px;
 }
-.text-inbox{
-    font-size: 17px;
-    color:var(--text-inbox);
-    margin-top: 20px;
+.text-inbox {
+  font-size: 17px;
+  color: var(--text-inbox);
+  margin-top: 20px;
 }
-.yellow-text{
-    font-size: 17px;
-    color: var(--yellow-text) ;
+.yellow-text {
+  font-size: 17px;
+  color: var(--yellow-text);
 }
 
-.header-text{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    align-items: center;
+.header-text {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
 }
-.phone{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
+.phone {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
 }
-.left-side{
-    display: flex;
-    flex-direction: row;
-    gap: 65px;
-    align-items: center;
+.left-side {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  align-items: center;
 }
 
-.black-box{
-    height: 197px;
-    width: 100%;
-    background-color:var(--text-15px);
-    border-radius: 30px;
-    margin-top: 22px;
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
-    align-items: center;
-justify-content: center;
-box-shadow: 0 0 20px  var(--shadow-color);
-    
+.black-box {
+  height: 197px;
+  width: 100%;
+  background-color: var(--text-15px);
+  border-radius: 30px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px var(--shadow-color);
 }
-.black-box h2{
-    font-size: 30px;
-    color: var(--karobka-color);
+.black-box h2 {
+  font-size: 30px;
+  color: var(--karobka-color);
 }
-.black-box img{
-    margin-bottom: 29px;
+.black-box img {
+  margin-bottom: 29px;
 }
-.first-row{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+.first-row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
-.overall{
-    margin-top: 44px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.overall {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.two-items{
-    display: flex;
-    flex-direction: column;
- align-items: center;
- justify-content: center;
- margin-top: 25px;
-   
+.two-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
 }
 .box-text {
-    display: flex;
-    flex-direction: row;
-    gap: 112px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  gap: 112px;
+  align-items: center;
+  justify-content: space-between;
 }
-.box-right{
-    display: flex;
-    flex-direction: column;
-
+.box-right {
+  display: flex;
+  flex-direction: column;
 }
 .box-left {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
-.next-star{
-    font-size: 17px;
-    color: var(--grey-text);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.next-star {
+  font-size: 17px;
+  color: var(--grey-text);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.bottom{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
+.bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
 }
-.lichniy{
-    margin-bottom: 28px;
+.lichniy {
+  margin-bottom: 28px;
 }
-.likee{
-    margin-top: 14px;
-    margin-left: 22px;
+.likee {
+  margin-top: 14px;
+  margin-left: 22px;
 }
-.different{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    margin-bottom: 16px;
-}
-
-  
-.last{
-    display: flex;
-flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 39px;
+.different {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-bottom: 16px;
 }
 
-.navbahor{
-    display: flex;
-    flex-direction: column;
-    gap: 9.5px;
+.last {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
 }
 
-.footer-left{
-    display: flex;
-    flex-direction: row;
-    gap: 233px;
-}
-.footer-right{
-    display: flex;
-        flex-direction: row;
-        gap: 135px;
-}
-.lang{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+.navbahor {
+  display: flex;
+  flex-direction: column;
+  gap: 9.5px;
 }
 
-.last-ever{
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-   
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  gap: 233px;
 }
-.icons{
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    align-items: center;
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.last-ever {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
 }
 footer {
- 
-    display: flex;
-    flex-direction: row;
-    gap: 160px;
-    padding: 30px;
-    background-color: white;
-    border-radius: 30px 30px 0 0;
-    box-shadow: 0 0 20px 0 var(--shadow-color);
+  display: flex;
+  flex-direction: row;
+  gap: 160px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 0 20px 0 var(--shadow-color);
 }
-.futer{
-margin-top: 60px;
+.futer {
+  margin-top: 60px;
 }
-.small{
-    margin-top: 60px;
+.small {
+  margin-top: 60px;
 }
-.chiziq{
-    position: relative;
-    bottom: 10px;
-    right: 5px;
+.chiziq {
+  position: relative;
+  bottom: 10px;
+  right: 5px;
 }
-.lang a:hover{
-    color: var(--yellow-text);
+.lang a:hover {
+  color: var(--yellow-text);
 }
-.navbahor a:hover{
-    color: var(--yellow-text);
+.navbahor a:hover {
+  color: var(--yellow-text);
 }
-.last-ever a:hover{
-    color: var(--yellow-text);
+.last-ever a:hover {
+  color: var(--yellow-text);
 }
-.likee a:hover svg path{
+.likee a:hover svg path {
   stroke: var(--text-inbox);
 }
-.karobka:hover{
-   transform: scale(1.05);
+.karobka:hover {
+  transform: scale(1.05);
 }
