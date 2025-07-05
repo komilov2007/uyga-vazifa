@@ -11,38 +11,51 @@
 body{
     min-height: 100vh;
    font-family: "Montserrat", sans-serif;
-   background-color: #EAEAEA;
+   background-color: var(--background-color);
    
+}
+:root{
+    --footer-text:#000000;
+     --text-15px:#101010;
+      --text-inbox: #1C1C27;
+      --yellow-text: #FFA542;
+      --grey-text: #838383;
+      --shadow-color: #0000001A;
+      --background-color: #EAEAEA;
+      --karobka-color:#FFFFFF;
 }
 .texts{
     font-size: 20px;
-    color: #838383;
+    color: var(--grey-text);
 }
 .footer-text{
     font-size: 17px;
-    color: #000000;
     text-decoration: none;
+    color: var(--footer-text);
 }
 .text-15px{
     font-size: 15px;
-    color: #101010;
+    color: var(--text-15px);
 }
 .karobka{
     width: 350px;
     height: 407.6470642089844px;
     border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-   
+    background-color: var(--karobka-color);
+    box-shadow: 0 0 20px  var(--shadow-color);
+   cursor: pointer;
+transition: all 0.2s ease-in;
+   scale: 3px;
+
 }
 .text-inbox{
     font-size: 17px;
-    color: #1C1C27;
+    color:var(--text-inbox);
     margin-top: 20px;
 }
 .yellow-text{
     font-size: 17px;
-    color: #FFA542;
+    color: var(--yellow-text) ;
 }
 .header-text{
     display: flex;
@@ -72,7 +85,7 @@ body{
 .black-box{
     height: 197px;
     width: 100%;
-    background-color: #101010;
+    background-color:var(--text-15px);
     border-radius: 30px;
     margin-top: 22px;
     display: flex;
@@ -80,12 +93,12 @@ body{
     gap: 90px;
     align-items: center;
 justify-content: center;
-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+box-shadow: 0 0 20px  var(--shadow-color);
     
 }
 .black-box h2{
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--karobka-color);
 }
 .black-box img{
     margin-bottom: 29px;
@@ -131,7 +144,7 @@ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 .next-star{
     font-size: 17px;
-    color: #838383;
+    color: var(--grey-text);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -164,10 +177,7 @@ flex-direction: row;
     justify-content: center;
     gap: 39px;
 }
-/* .likee:hover svg path{
-fill: #1C1C27;
-stroke: #1C1C27;
-} */
+
 .navbahor{
     display: flex;
     flex-direction: column;
@@ -210,7 +220,7 @@ footer {
     padding: 30px;
     background-color: white;
     border-radius: 30px 30px 0 0;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 var(--shadow-color);
 }
 .futer{
 margin-top: 60px;
@@ -224,14 +234,17 @@ margin-top: 60px;
     right: 5px;
 }
 .lang a:hover{
-    color: #FFA542;
+    color: var(--yellow-text);
 }
 .navbahor a:hover{
-    color: #FFA542;
+    color: var(--yellow-text);
 }
 .last-ever a:hover{
-    color: #FFA542;
+    color: var(--yellow-text);
 }
 .likee a:hover svg path{
-  stroke: #1C1C27;
+  stroke: var(--text-inbox);
+}
+.karobka:hover{
+   transform: scale(1.05);
 }
