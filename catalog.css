@@ -213,3 +213,8 @@ margin-top: 60px;
 .small{
     margin-top: 60px;
 }
+.chiziq{
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+}
