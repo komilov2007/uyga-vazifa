@@ -10,7 +10,7 @@ body {
     background-color: var(--seriy-color);
 }
 .container {
-    max-width: 1200px;
+    max-width: 1110px;
     margin: 0 auto;
    
 }
@@ -22,11 +22,27 @@ body {
     --qora-color: #101010;
     --kok-color: blue;
     --kulrang-color:#838383;
+
     --shadow-color:#0000001A;
+
+    --shadow-color:rgb(193, 192, 192);
+}
+.sect-text .del {
+    text-decoration: line-through;
+    text-decoration: color red;
+    text-decoration: wavy;
+    text-decoration-thickness: 2px;
+
 }
 header {
-   display: flex;
-   align-items: center;
+    display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        background-color: var(--seriy-color);
+        width: 100%;
+        height: 60px;
+        border-radius: 0 0 15px 15px;
 }
 b {
     font-size: 25px;
@@ -76,7 +92,7 @@ select {
     height: 720px;
     border-radius: 20px;
     box-shadow: var(--qora-color);
-    box-shadow: 0px 0px 20px var(--qora-color);
+    box-shadow: 0px 0px 20px var(--shadow-color);
 }    
 .sect-clr img {
    padding-top: 0px;
@@ -110,7 +126,7 @@ select {
 height: 550px;
 border-radius: 20px;
 margin-top: 23px;
-box-shadow: 0px 0px 20px var(--qora-color);
+box-shadow: 0px 0px 20px var(--shadow-color);
 }
 .btn {
   
@@ -130,7 +146,7 @@ box-shadow: 0px 0px 20px var(--qora-color);
     padding: 20px;
 }
 .card:hover {
-    box-shadow: 1px 1px 10px var(--qora-color), -1px -1px 10px var(--qora-color);
+    box-shadow: 1px 1px 10px var(--shadow-color), -1px -1px 10px var(--shadow-color);
 }
 .card-text {
     display: flex;
@@ -159,7 +175,14 @@ box-shadow: 0px 0px 20px var(--qora-color);
     padding: 13px 100px;
     margin-top: 23px;
     margin-left: 33px;
-    box-shadow: 0px 0px 20px var(--qora-color);
+    box-shadow: 0px 0px 20px var(--shadow-color);
+}
+.btn button{
+    height: 51px;
+    width: 310px;
+}
+.btn img {
+    padding-top: 17px;
 }
 .btn button:last-child {
     color: var(--oq-color);
@@ -172,7 +195,9 @@ box-shadow: 0px 0px 20px var(--qora-color);
         align-items: center;
         margin-top: 20px;
         margin-left: 33px;
-        box-shadow: 0px 0px 20px var(--qora-color);
+        box-shadow: 0px 0px 20px var(--shadow-color);
+        display: flex;
+        
 }
 .btn button:first-child:hover {
     color: var(--oq-color);
@@ -207,6 +232,8 @@ box-shadow: 0px 0px 20px var(--qora-color);
     display: flex;
     justify-content: space-between;
     align-items:baseline;
+    position: relative;
+    top: 580px;
 }
 .foot-text a {
     display: flex;
