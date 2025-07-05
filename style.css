@@ -22,6 +22,9 @@ body {
     --qora-color: #101010;
     --kok-color: blue;
     --kulrang-color:#838383;
+
+    --shadow-color:#0000001A;
+
     --shadow-color:rgb(193, 192, 192);
 }
 .sect-text .del {
@@ -29,6 +32,7 @@ body {
     text-decoration: color red;
     text-decoration: wavy;
     text-decoration-thickness: 2px;
+
 }
 header {
     display: flex;
