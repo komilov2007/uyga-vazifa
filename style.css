@@ -23,6 +23,12 @@ body {
     --kok-color: blue;
     --kulrang-color:#838383;
 }
+.sect-text .del {
+    text-decoration: line-through;
+    text-decoration: color red;
+    text-decoration: wavy;
+    text-decoration-thickness: 2px;
+}
 header {
     display: flex;
         align-items: center;
@@ -166,6 +172,13 @@ box-shadow: 0px 0px 20px var(--qora-color);
     margin-left: 33px;
     box-shadow: 0px 0px 20px var(--qora-color);
 }
+.btn button{
+    height: 50px;
+    width: 310px;
+}
+.btn img {
+    padding-top: 17px;
+}
 .btn button:last-child {
     color: var(--oq-color);
         font-size: 15px;
@@ -178,6 +191,8 @@ box-shadow: 0px 0px 20px var(--qora-color);
         margin-top: 20px;
         margin-left: 33px;
         box-shadow: 0px 0px 20px var(--qora-color);
+        display: flex;
+        
 }
 .btn button:first-child:hover {
     color: var(--oq-color);
@@ -212,6 +227,8 @@ box-shadow: 0px 0px 20px var(--qora-color);
     display: flex;
     justify-content: space-between;
     align-items:baseline;
+    position: relative;
+    top: 580px;
 }
 .foot-text a {
     display: flex;
