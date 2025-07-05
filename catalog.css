@@ -24,6 +24,19 @@ body{
       --background-color: #EAEAEA;
       --karobka-color:#FFFFFF;
 }
+.with-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    height: 60px;
+    width: 100%;
+    background-color: var(--background-color);
+    position: sticky;
+    top: 0px;
+}
 .texts{
     font-size: 20px;
     color: var(--grey-text);
@@ -57,6 +70,7 @@ transition: all 0.2s ease-in;
     font-size: 17px;
     color: var(--yellow-text) ;
 }
+
 .header-text{
     display: flex;
     flex-direction: row;
@@ -75,13 +89,7 @@ transition: all 0.2s ease-in;
     gap: 65px;
     align-items: center;
 }
-.with-logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-}
+
 .black-box{
     height: 197px;
     width: 100%;
